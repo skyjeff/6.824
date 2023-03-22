@@ -17,14 +17,21 @@ package raft
 //   in the same server.
 //
 
-import "sync"
+import (
+	_ "fmt"
+	_"fmt"
+	"math/rand"
+	_ "net/http"
+	_ "net/http/pprof"
+	"sync"
+	"time"
+
+)
 import "sync/atomic"
 import "../labrpc"
 
-// import "bytes"
-// import "../labgob"
-
-
+import "bytes"
+import "../labgob"
 
 //
 // as each Raft peer becomes aware that successive log entries are
@@ -41,31 +48,54 @@ type ApplyMsg struct {
 	CommandValid bool
 	Command      interface{}
 	CommandIndex int
+	CommandTerm int
+}
+
+type LogEntry struct {
+	Command interface{}
+	Term int
 }
 
 //
 // A Go object implementing a single Raft peer.
 //
 type Raft struct {
-	mu        sync.Mutex          // Lock to protect shared access to this peer's state
+	mu        sync.RWMutex        // Lock to protect shared access to this peer's state
 	peers     []*labrpc.ClientEnd // RPC end points of all peers
 	persister *Persister          // Object to hold this peer's persisted state
 	me        int                 // this peer's index into peers[]
 	dead      int32               // set by Kill()
+	applyCh   chan ApplyMsg
 
-	// Your data here (2A, 2B, 2C).
-	// Look at the paper's Figure 2 for a description of what
-	// state a Raft server must maintain.
+	state        NodeState
+	//lastRec      time.Time
+	//electTimeout time.Duration    // will update when reset the timeout
 
+	electionTimer  *time.Timer
+	heartbeatTimer *time.Timer
+
+	currentTerm  int
+	voteFor      int
+	log          []LogEntry
+
+	commitIndex int
+	lastApplied int
+
+	nextIndex    []int
+	matchIndex   []int
+	replicatorCond []sync.Cond
+	applierCond sync.Cond
 }
 
 // return currentTerm and whether this server
 // believes it is the leader.
 func (rf *Raft) GetState() (int, bool) {
-
 	var term int
 	var isleader bool
-	// Your code here (2A).
+	rf.mu.RLock()
+	defer rf.mu.RUnlock()
+	term = rf.currentTerm
+	isleader = rf.state == Leader
 	return term, isleader
 }
 
@@ -74,17 +104,27 @@ func (rf *Raft) GetState() (int, bool) {
 // where it can later be retrieved after a crash and restart.
 // see paper's Figure 2 for a description of what should be persistent.
 //
-func (rf *Raft) persist() {
-	// Your code here (2C).
-	// Example:
-	// w := new(bytes.Buffer)
-	// e := labgob.NewEncoder(w)
-	// e.Encode(rf.xxx)
-	// e.Encode(rf.yyy)
-	// data := w.Bytes()
-	// rf.persister.SaveRaftState(data)
-}
 
+func (rf *Raft) EncodePersitedData() (data []byte){
+	w := new(bytes.Buffer)
+	e := labgob.NewEncoder(w)
+	if err := e.Encode(rf.currentTerm); err != nil {
+		DPrintf("encode currentTerm error!!")
+	}
+	if err := e.Encode(rf.voteFor); err != nil {
+		DPrintf("encode voteFor error!!")
+	}
+	if err := e.Encode(rf.log); err != nil {
+		DPrintf("encode log error!!")
+	}
+	data = w.Bytes()
+	return
+}
+func (rf *Raft) persist() {
+	DPrintf("start persisting...")
+	data := rf.EncodePersitedData()
+	rf.persister.SaveRaftState(data)
+}
 
 //
 // restore previously persisted state.
@@ -93,46 +133,28 @@ func (rf *Raft) readPersist(data []byte) {
 	if data == nil || len(data) < 1 { // bootstrap without any state?
 		return
 	}
-	// Your code here (2C).
-	// Example:
-	// r := bytes.NewBuffer(data)
-	// d := labgob.NewDecoder(r)
-	// var xxx
-	// var yyy
-	// if d.Decode(&xxx) != nil ||
-	//    d.Decode(&yyy) != nil {
-	//   error...
-	// } else {
-	//   rf.xxx = xxx
-	//   rf.yyy = yyy
-	// }
+
+	r := bytes.NewBuffer(data)
+	d := labgob.NewDecoder(r)
+
+	var term int
+	var voteFor int
+	var log []LogEntry
+	if d.Decode(&term) != nil ||
+			d.Decode(&voteFor) != nil ||
+			d.Decode(&log) != nil{
+		DPrintf("read persist data error!!")
+	} else{
+		rf.currentTerm = term
+		rf.voteFor = voteFor
+		rf.log = log
+	}
 }
 
-
-
-
-//
-// example RequestVote RPC arguments structure.
-// field names must start with capital letters!
-//
-type RequestVoteArgs struct {
-	// Your data here (2A, 2B).
+func getRandomElectTimeout() time.Duration {
+	return time.Duration(250 + rand.Int31n(150)) * time.Millisecond
 }
 
-//
-// example RequestVote RPC reply structure.
-// field names must start with capital letters!
-//
-type RequestVoteReply struct {
-	// Your data here (2A).
-}
-
-//
-// example RequestVote RPC handler.
-//
-func (rf *Raft) RequestVote(args *RequestVoteArgs, reply *RequestVoteReply) {
-	// Your code here (2A, 2B).
-}
 
 //
 // example code to send a RequestVote RPC to a server.
@@ -163,10 +185,6 @@ func (rf *Raft) RequestVote(args *RequestVoteArgs, reply *RequestVoteReply) {
 // that the caller passes the address of the reply struct with &, not
 // the struct itself.
 //
-func (rf *Raft) sendRequestVote(server int, args *RequestVoteArgs, reply *RequestVoteReply) bool {
-	ok := rf.peers[server].Call("Raft.RequestVote", args, reply)
-	return ok
-}
 
 
 //
@@ -184,15 +202,29 @@ func (rf *Raft) sendRequestVote(server int, args *RequestVoteArgs, reply *Reques
 // the leader.
 //
 func (rf *Raft) Start(command interface{}) (int, int, bool) {
-	index := -1
-	term := -1
-	isLeader := true
+	rf.mu.Lock()
+	defer rf.mu.Unlock()
 
-	// Your code here (2B).
+	lastIndex, _  := rf.getLastLogIndexTerm()
+	index := lastIndex + 1
+	term := rf.currentTerm
+	isLeader := rf.state == Leader
+	if isLeader {
+		rf.log = append(rf.log, LogEntry{
+			Term:    rf.currentTerm,
+			Command: command,
+		})
 
+		//rf.matchIndex[rf.me] = index
+		//rf.nextIndex[rf.me] = index + 1
+		rf.persist()
+		DPrintf("new command %+v come in, and now leader [%d] log is %+v", command, rf.me, rf.log)
+		rf.startHeartBeats(false)
+	}
 
 	return index, term, isLeader
 }
+
 
 //
 // the tester doesn't halt goroutines created by Raft after each test,
@@ -228,16 +260,101 @@ func (rf *Raft) killed() bool {
 //
 func Make(peers []*labrpc.ClientEnd, me int,
 	persister *Persister, applyCh chan ApplyMsg) *Raft {
-	rf := &Raft{}
-	rf.peers = peers
-	rf.persister = persister
-	rf.me = me
+	rf := &Raft{
+		mu: sync.RWMutex{},
+		peers: peers,
+		persister: persister,
+		me: me,
+		dead: -1,
+		state: Follwer,
+		electionTimer: time.NewTimer(getRandomElectTimeout()),
+		heartbeatTimer: time.NewTimer(HeartBeatsInterval),
 
-	// Your initialization code here (2A, 2B, 2C).
+		currentTerm: 1,
+		voteFor: -1,
+		log: make([]LogEntry, 1),
+		commitIndex: 0,
+		lastApplied: 0,
+		applyCh: applyCh,
+
+		nextIndex: make([]int, len(peers)),
+		matchIndex: make([]int, len(peers)),
+		replicatorCond: make([]sync.Cond, len(peers)),
+	}
+	rf.applierCond = *sync.NewCond(&rf.mu)
+	rf.log[0] = LogEntry{nil, 0}
+	for i := 0; i < len(rf.peers); i++{
+		rf.nextIndex[i] = 1
+		rf.matchIndex[i] = 0
+		if i == me{
+			continue
+		}
+		rf.replicatorCond[i] = *sync.NewCond(&sync.Mutex{})
+		go rf.replicator(i)
+	}
+
+	go rf.Ticker()
+
+	go rf.applier(applyCh)
+
+	// pprof check the goroutine state
+	//go func() {
+	//	fmt.Println(http.ListenAndServe(":6060", nil))
+	//}()
 
 	// initialize from state persisted before a crash
 	rf.readPersist(persister.ReadRaftState())
 
-
 	return rf
+}
+
+func (rf *Raft) Ticker()  {
+	DPrintf("ticker di di di")
+	for !rf.killed(){
+		select {
+		case <- rf.electionTimer.C:
+			rf.mu.Lock()
+			if rf.state != Leader{
+				DPrintf("[%d] election timeout", rf.me)
+				go rf.startElection()
+				//rf.resetElectionTimer()
+			}
+			rf.mu.Unlock()
+			// maybe need to use lock
+		case <- rf.heartbeatTimer.C:
+			rf.mu.Lock()
+			if rf.state == Leader{
+				resetTimer(rf.heartbeatTimer, HeartBeatsInterval)
+				rf.startHeartBeats(true)
+			}
+			rf.mu.Unlock()
+		}
+	}
+}
+func (rf *Raft) needApply() bool{
+	return rf.lastApplied < rf.commitIndex
+}
+func (rf *Raft) applier(applyCh chan ApplyMsg){
+	for !rf.killed(){
+		rf.mu.Lock()
+		for !rf.needApply(){
+			rf.applierCond.Wait()
+		}
+		DPrintf("[%d] start to apply, it commitIndex is %d, lastApplied is %d, \n -log is %+v", rf.me, rf.commitIndex, rf.lastApplied, rf.log)
+		//rf.mu.RUnlock()
+		for i := rf.lastApplied + 1; i <= rf.commitIndex; i++{
+			msg := ApplyMsg{
+				CommandValid: true,
+				Command: rf.log[i].Command,
+				CommandIndex: i,
+				CommandTerm: rf.currentTerm,
+			}
+			applyCh <- msg
+		}
+		//rf.mu.RLock()
+		if rf.commitIndex > rf.lastApplied{
+			rf.lastApplied = rf.commitIndex
+		}
+		rf.mu.Unlock()
+	}
 }

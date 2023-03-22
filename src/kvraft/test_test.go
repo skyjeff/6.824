@@ -27,17 +27,21 @@ func Get(cfg *config, ck *Clerk, key string) string {
 }
 
 func Put(cfg *config, ck *Clerk, key string, value string) {
+	DPrintf("[client %d Put Key %s and Value %s]", ck.clientID, key, value)
 	ck.Put(key, value)
 	cfg.op()
 }
 
 func Append(cfg *config, ck *Clerk, key string, value string) {
+	DPrintf("[client %d Append Key %s and Value %s]", ck.clientID, key, value)
 	ck.Append(key, value)
 	cfg.op()
 }
 
 func check(cfg *config, t *testing.T, ck *Clerk, key string, value string) {
+	DPrintf("[client %d Append Key %s and Value %s]", ck.clientID, key, value)
 	v := Get(cfg, ck, key)
+
 	if v != value {
 		t.Fatalf("Get(%v): expected:\n%v\nreceived:\n%v", key, value, v)
 	}
@@ -203,15 +207,16 @@ func GenericTest(t *testing.T, part string, nclients int, unreliable bool, crash
 			last := ""
 			key := strconv.Itoa(cli)
 			Put(cfg, myck, key, last)
+			DPrintf("after Put")
 			for atomic.LoadInt32(&done_clients) == 0 {
 				if (rand.Int() % 1000) < 500 {
 					nv := "x " + strconv.Itoa(cli) + " " + strconv.Itoa(j) + " y"
-					// log.Printf("%d: client new append %v\n", cli, nv)
+					log.Printf("%d: client new append %v\n", cli, nv)
 					Append(cfg, myck, key, nv)
 					last = NextValue(last, nv)
 					j++
 				} else {
-					// log.Printf("%d: client new get %v\n", cli, key)
+					log.Printf("%d: client new get %v\n", cli, key)
 					v := Get(cfg, myck, key)
 					if v != last {
 						log.Fatalf("get wrong value, key %v, wanted:\n%v\n, got\n%v\n", key, last, v)

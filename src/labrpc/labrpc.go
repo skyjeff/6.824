@@ -49,7 +49,10 @@ package labrpc
 //   pass svc to srv.AddService()
 //
 
-import "../labgob"
+import (
+	"../labgob"
+	//"fmt"
+)
 import "bytes"
 import "reflect"
 import "sync"
@@ -483,7 +486,7 @@ func (svc *Service) dispatch(methname string, req reqMsg) replyMsg {
 		ab := bytes.NewBuffer(req.args)
 		ad := labgob.NewDecoder(ab)
 		ad.Decode(args.Interface())
-
+		//fmt.Printf("function dispath args is %+v\n", args.Elem())
 		// allocate space for the reply.
 		replyType := method.Type.In(2)
 		replyType = replyType.Elem()

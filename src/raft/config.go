@@ -195,8 +195,8 @@ func (cfg *config) start1(i int) {
 
 			if err_msg != "" {
 				log.Fatalf("apply error: %v\n", err_msg)
-				cfg.applyErr[i] = err_msg
-				// keep reading after error so that Raft doesn't block
+
+				cfg.applyErr[i] = err_msg// keep reading after error so that Raft doesn't block
 				// holding locks...
 			}
 		}
@@ -308,11 +308,11 @@ func (cfg *config) checkOneLeader() int {
 		for i := 0; i < cfg.n; i++ {
 			if cfg.connected[i] {
 				if term, leader := cfg.rafts[i].GetState(); leader {
+					//DPrintf("[%d] leader is %+v\n", i, cfg.rafts[i])
 					leaders[term] = append(leaders[term], i)
 				}
 			}
 		}
-
 		lastTermWithLeader := -1
 		for term, leaders := range leaders {
 			if len(leaders) > 1 {
@@ -370,7 +370,9 @@ func (cfg *config) nCommitted(index int) (int, interface{}) {
 
 		cfg.mu.Lock()
 		cmd1, ok := cfg.logs[i][index]
+		DPrintf("*******[%d] applied is %+v" , i, cfg.logs[i])
 		cfg.mu.Unlock()
+
 
 		if ok {
 			if count > 0 && cmd != cmd1 {
@@ -379,6 +381,7 @@ func (cfg *config) nCommitted(index int) (int, interface{}) {
 			}
 			count += 1
 			cmd = cmd1
+			DPrintf("cmd is %+v", cmd)
 		}
 	}
 	return count, cmd
@@ -430,6 +433,7 @@ func (cfg *config) wait(index int, n int, startTerm int) interface{} {
 func (cfg *config) one(cmd interface{}, expectedServers int, retry bool) int {
 	t0 := time.Now()
 	starts := 0
+
 	for time.Since(t0).Seconds() < 10 {
 		// try all the servers, maybe one is the leader.
 		index := -1
@@ -443,6 +447,7 @@ func (cfg *config) one(cmd interface{}, expectedServers int, retry bool) int {
 			cfg.mu.Unlock()
 			if rf != nil {
 				index1, _, ok := rf.Start(cmd)
+
 				if ok {
 					index = index1
 					break
@@ -456,9 +461,15 @@ func (cfg *config) one(cmd interface{}, expectedServers int, retry bool) int {
 			t1 := time.Now()
 			for time.Since(t1).Seconds() < 2 {
 				nd, cmd1 := cfg.nCommitted(index)
+				//DPrintf("nd is %d", nd)
+				//DPrintf("index1 is %d", index)
+				//DPrintf("one function ---- cmd1 is %+v", cmd1)
+				//DPrintf("oen function ---- cmd is %+v", cmd)
 				if nd > 0 && nd >= expectedServers {
 					// committed
+
 					if cmd1 == cmd {
+
 						// and it was the command we submitted.
 						return index
 					}
@@ -472,6 +483,7 @@ func (cfg *config) one(cmd interface{}, expectedServers int, retry bool) int {
 			time.Sleep(50 * time.Millisecond)
 		}
 	}
+	DPrintf("here is one function")
 	cfg.t.Fatalf("one(%v) failed to reach agreement", cmd)
 	return -1
 }

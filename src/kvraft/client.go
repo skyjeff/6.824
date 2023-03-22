@@ -8,6 +8,9 @@ import "math/big"
 type Clerk struct {
 	servers []*labrpc.ClientEnd
 	// You will have to modify this struct.
+	clientID int64
+	requestID int
+	leaderID int
 }
 
 func nrand() int64 {
@@ -20,8 +23,27 @@ func nrand() int64 {
 func MakeClerk(servers []*labrpc.ClientEnd) *Clerk {
 	ck := new(Clerk)
 	ck.servers = servers
-	// You'll have to add code here.
+
+	ck.clientID = nrand()
+	ck.requestID = 0
+	ck.leaderID = 0
+
 	return ck
+}
+
+func (ck *Clerk) Command(Key string, Value string, opType Operation) string{
+	commandArgs := getCommandArgs(Key, Value, opType, ck.clientID, ck.requestID)
+	for {
+		reply := CommandReply{}
+		if !ck.servers[ck.leaderID].Call("KVServer.Command", &commandArgs, &reply) || reply.Err == ErrWrongLeader || reply.Err == ErrTimeOut {
+			ck.leaderID = (ck.leaderID + 1) % len(ck.servers)
+			DPrintf("resend to [KVServer %d], because %s", ck.leaderID, reply.Err)
+			continue
+		}
+		DPrintf("finish command, key %s, value %s, type is %s", Key, Value, OpName[opType])
+		ck.requestID += 1
+		return reply.Value
+	}
 }
 
 //
@@ -37,9 +59,7 @@ func MakeClerk(servers []*labrpc.ClientEnd) *Clerk {
 // arguments. and reply must be passed as a pointer.
 //
 func (ck *Clerk) Get(key string) string {
-
-	// You will have to modify this function.
-	return ""
+	return ck.Command(key, "", OpGet)
 }
 
 //
@@ -52,13 +72,13 @@ func (ck *Clerk) Get(key string) string {
 // must match the declared types of the RPC handler function's
 // arguments. and reply must be passed as a pointer.
 //
-func (ck *Clerk) PutAppend(key string, value string, op string) {
-	// You will have to modify this function.
+func (ck *Clerk) PutAppend(key string, value string, op Operation) {
+	ck.Command(key, value, op)
 }
 
 func (ck *Clerk) Put(key string, value string) {
-	ck.PutAppend(key, value, "Put")
+	ck.PutAppend(key, value, OpPut)
 }
 func (ck *Clerk) Append(key string, value string) {
-	ck.PutAppend(key, value, "Append")
+	ck.PutAppend(key, value, OpAppend)
 }

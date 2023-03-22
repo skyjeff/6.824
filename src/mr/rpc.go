@@ -22,8 +22,42 @@ type ExampleReply struct {
 	Y int
 }
 
-// Add your RPC definitions here.
+// Add RPC definitions here.
+// TYPE：
+// 0 从master获取tasks
+type Args struct {
+	TYPE int
+	TEXT string
+}
 
+type Reply struct {
+	
+}
+
+type RegisterArgs struct {}
+
+type RegisterReply struct{
+	WorkId int
+}
+
+type RegTaskArgs struct {
+	WorkerId int
+}
+
+type RegTaskReply struct {
+	Task *Task
+}
+
+type ReportTaskArgs struct {
+	Task Task
+	State bool
+	Err error
+	WorkId int
+}
+
+type ReportTaskReply struct {
+
+}
 
 // Cook up a unique-ish UNIX-domain socket name
 // in /var/tmp, for the master.

@@ -165,6 +165,9 @@ sleep 1
 
 # start multiple workers
 timeout -k 2s 180s ../mrworker ../../mrapps/crash.so &
+timeout -k 2s 180s ../mrworker ../../mrapps/crash.so &
+timeout -k 2s 180s ../mrworker ../../mrapps/crash.so &
+timeout -k 2s 180s ../mrworker ../../mrapps/crash.so &
 
 # mimic rpc.go's masterSock()
 SOCKNAME=/var/tmp/824-mr-`id -u`

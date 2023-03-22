@@ -1,0 +1,3114 @@
+Test: one client (3A) ...
+2022/09/22 12:31:00 [client 1793247309310925113 Put Key 0 and Value ]
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+listen tcp :6060: bind: address already in use
+listen tcp :6060: bind: address already in use
+listen tcp :6060: bind: address already in use
+listen tcp :6060: bind: address already in use
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:00 [server 3] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:00 [server 2] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:00 [server 1] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:00 [server 0] Leader is false
+2022/09/22 12:31:00 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:00 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrWrongLeader
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is true
+2022/09/22 12:31:01 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:01 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:01 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:01 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:01 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:01 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:01 [server 4] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:01 [server 3] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:01 [server 2] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:01 [server 1] Leader is false
+2022/09/22 12:31:01 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:01 [server 0] Leader is true
+2022/09/22 12:31:01 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:01 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:01 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:01 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:01 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:01 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:01 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:01 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:01 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:01 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:02 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:02 [server 4] Leader is false
+2022/09/22 12:31:02 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:02 [server 3] Leader is false
+2022/09/22 12:31:02 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:02 [server 2] Leader is false
+2022/09/22 12:31:02 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:02 [server 1] Leader is false
+2022/09/22 12:31:02 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:02 [server 0] Leader is true
+2022/09/22 12:31:02 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:02 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:02 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:02 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:02 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:02 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:02 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:02 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:02 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:02 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:02 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:02 [server 4] Leader is false
+2022/09/22 12:31:02 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:02 [server 3] Leader is false
+2022/09/22 12:31:02 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:02 [server 2] Leader is false
+2022/09/22 12:31:02 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:02 [server 1] Leader is false
+2022/09/22 12:31:02 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:02 [server 0] Leader is true
+2022/09/22 12:31:02 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:02 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:02 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:02 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:02 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:02 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:02 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:02 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:02 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:02 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:03 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:03 [server 4] Leader is false
+2022/09/22 12:31:03 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:03 [server 3] Leader is false
+2022/09/22 12:31:03 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:03 [server 2] Leader is false
+2022/09/22 12:31:03 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:03 [server 1] Leader is false
+2022/09/22 12:31:03 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:03 [server 0] Leader is true
+2022/09/22 12:31:03 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:03 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:03 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:03 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:03 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:03 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:03 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:03 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:03 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:03 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:03 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:03 [server 4] Leader is false
+2022/09/22 12:31:03 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:03 [server 3] Leader is false
+2022/09/22 12:31:03 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:03 [server 2] Leader is false
+2022/09/22 12:31:03 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:03 [server 1] Leader is false
+2022/09/22 12:31:03 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:03 [server 0] Leader is true
+2022/09/22 12:31:03 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:03 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:03 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:03 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:03 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:03 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:03 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:03 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:03 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:03 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:04 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:04 [server 4] Leader is false
+2022/09/22 12:31:04 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:04 [server 3] Leader is false
+2022/09/22 12:31:04 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:04 [server 2] Leader is false
+2022/09/22 12:31:04 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:04 [server 1] Leader is false
+2022/09/22 12:31:04 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:04 [server 0] Leader is true
+2022/09/22 12:31:04 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:04 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:04 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:04 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:04 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:04 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:04 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:04 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:04 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:04 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:04 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:04 [server 4] Leader is false
+2022/09/22 12:31:04 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:04 [server 3] Leader is false
+2022/09/22 12:31:04 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:04 [server 2] Leader is false
+2022/09/22 12:31:04 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:04 [server 1] Leader is false
+2022/09/22 12:31:04 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:04 [server 0] Leader is true
+2022/09/22 12:31:04 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:04 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:04 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:04 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:04 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:04 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:04 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:04 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:04 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:04 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:05 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:05 [server 4] Leader is false
+2022/09/22 12:31:05 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:05 [server 3] Leader is false
+2022/09/22 12:31:05 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:05 [server 2] Leader is false
+2022/09/22 12:31:05 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:05 [server 1] Leader is false
+2022/09/22 12:31:05 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:05 [server 0] Leader is true
+2022/09/22 12:31:05 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:05 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:05 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:05 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:05 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:05 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:05 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:05 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:05 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:05 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:05 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:05 [server 4] Leader is false
+2022/09/22 12:31:05 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:05 [server 3] Leader is false
+2022/09/22 12:31:05 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:05 [server 2] Leader is false
+2022/09/22 12:31:05 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:05 [server 1] Leader is false
+2022/09/22 12:31:05 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:05 [server 0] Leader is true
+2022/09/22 12:31:05 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:05 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:05 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:05 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:05 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:05 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:05 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:05 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:05 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:05 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:06 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:06 [server 4] Leader is false
+2022/09/22 12:31:06 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:06 [server 3] Leader is false
+2022/09/22 12:31:06 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:06 [server 2] Leader is false
+2022/09/22 12:31:06 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:06 [server 1] Leader is false
+2022/09/22 12:31:06 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:06 [server 0] Leader is true
+2022/09/22 12:31:06 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:06 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:06 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:06 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:06 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:06 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:06 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:06 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:06 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:06 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:06 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:06 [server 4] Leader is false
+2022/09/22 12:31:06 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:06 [server 3] Leader is false
+2022/09/22 12:31:06 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:06 [server 2] Leader is false
+2022/09/22 12:31:06 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:06 [server 1] Leader is false
+2022/09/22 12:31:06 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:06 [server 0] Leader is true
+2022/09/22 12:31:06 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:06 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:06 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:06 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:06 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:06 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:06 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:06 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:06 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:06 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:07 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:07 [server 4] Leader is false
+2022/09/22 12:31:07 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:07 [server 3] Leader is false
+2022/09/22 12:31:07 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:07 [server 2] Leader is false
+2022/09/22 12:31:07 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:07 [server 1] Leader is false
+2022/09/22 12:31:07 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:07 [server 0] Leader is true
+2022/09/22 12:31:07 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:07 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:07 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:07 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:07 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:07 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:07 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:07 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:07 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:07 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:07 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:07 [server 4] Leader is false
+2022/09/22 12:31:07 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:07 [server 3] Leader is false
+2022/09/22 12:31:07 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:07 [server 2] Leader is false
+2022/09/22 12:31:07 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:07 [server 1] Leader is false
+2022/09/22 12:31:07 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:07 [server 0] Leader is true
+2022/09/22 12:31:07 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:07 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:07 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:07 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:07 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:07 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:07 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:07 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:07 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:07 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:08 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:08 [server 4] Leader is false
+2022/09/22 12:31:08 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:08 [server 3] Leader is false
+2022/09/22 12:31:08 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:08 [server 2] Leader is false
+2022/09/22 12:31:08 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:08 [server 1] Leader is false
+2022/09/22 12:31:08 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:08 [server 0] Leader is true
+2022/09/22 12:31:08 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:08 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:08 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:08 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:08 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:08 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:08 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:08 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:08 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:08 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:08 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:08 [server 4] Leader is false
+2022/09/22 12:31:08 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:08 [server 3] Leader is false
+2022/09/22 12:31:08 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:08 [server 2] Leader is false
+2022/09/22 12:31:08 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:08 [server 1] Leader is false
+2022/09/22 12:31:08 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:08 [server 0] Leader is true
+2022/09/22 12:31:08 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:08 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:08 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:08 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:08 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:08 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:08 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:08 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:08 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:08 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:09 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:09 [server 4] Leader is false
+2022/09/22 12:31:09 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:09 [server 3] Leader is false
+2022/09/22 12:31:09 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:09 [server 2] Leader is false
+2022/09/22 12:31:09 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:09 [server 1] Leader is false
+2022/09/22 12:31:09 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:09 [server 0] Leader is true
+2022/09/22 12:31:09 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:09 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:09 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:09 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:09 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:09 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:09 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:09 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:09 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:09 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:09 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:09 [server 4] Leader is false
+2022/09/22 12:31:09 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:09 [server 3] Leader is false
+2022/09/22 12:31:09 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:09 [server 2] Leader is false
+2022/09/22 12:31:09 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:09 [server 1] Leader is false
+2022/09/22 12:31:09 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:09 [server 0] Leader is true
+2022/09/22 12:31:09 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:09 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:09 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:09 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:09 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:09 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:09 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:09 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:09 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:09 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:10 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:10 [server 4] Leader is false
+2022/09/22 12:31:10 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:10 [server 3] Leader is false
+2022/09/22 12:31:10 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:10 [server 2] Leader is false
+2022/09/22 12:31:10 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:10 [server 1] Leader is false
+2022/09/22 12:31:10 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:10 [server 0] Leader is true
+2022/09/22 12:31:10 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:10 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:10 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:10 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:10 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:10 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:10 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:10 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:10 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:10 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:10 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:10 [server 4] Leader is false
+2022/09/22 12:31:10 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:10 [server 3] Leader is false
+2022/09/22 12:31:10 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:10 [server 2] Leader is false
+2022/09/22 12:31:10 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:10 [server 1] Leader is false
+2022/09/22 12:31:10 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:10 [server 0] Leader is true
+2022/09/22 12:31:10 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:10 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:10 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:10 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:10 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:10 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:10 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:10 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:10 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:10 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:11 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:11 [server 4] Leader is false
+2022/09/22 12:31:11 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:11 [server 3] Leader is false
+2022/09/22 12:31:11 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:11 [server 2] Leader is false
+2022/09/22 12:31:11 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:11 [server 1] Leader is false
+2022/09/22 12:31:11 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:11 [server 0] Leader is true
+2022/09/22 12:31:11 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:11 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:11 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:11 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:11 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:11 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:11 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:11 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:11 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:11 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:11 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:11 [server 4] Leader is false
+2022/09/22 12:31:11 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:11 [server 3] Leader is false
+2022/09/22 12:31:11 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:11 [server 2] Leader is false
+2022/09/22 12:31:11 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:11 [server 1] Leader is false
+2022/09/22 12:31:11 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:11 [server 0] Leader is true
+2022/09/22 12:31:11 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:11 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:11 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:11 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:11 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:11 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:11 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:11 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:11 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:11 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:12 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:12 [server 4] Leader is false
+2022/09/22 12:31:12 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:12 [server 3] Leader is false
+2022/09/22 12:31:12 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:12 [server 2] Leader is false
+2022/09/22 12:31:12 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:12 [server 1] Leader is false
+2022/09/22 12:31:12 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:12 [server 0] Leader is true
+2022/09/22 12:31:12 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:12 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:12 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:12 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:12 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:12 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:12 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:12 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:12 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:12 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:12 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:12 [server 4] Leader is false
+2022/09/22 12:31:12 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:12 [server 3] Leader is false
+2022/09/22 12:31:12 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:12 [server 2] Leader is false
+2022/09/22 12:31:12 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:12 [server 1] Leader is false
+2022/09/22 12:31:12 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:12 [server 0] Leader is true
+2022/09/22 12:31:12 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:12 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:12 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:12 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:12 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:12 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:12 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:12 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:12 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:12 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:13 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:13 [server 4] Leader is false
+2022/09/22 12:31:13 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:13 [server 3] Leader is false
+2022/09/22 12:31:13 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:13 [server 2] Leader is false
+2022/09/22 12:31:13 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:13 [server 1] Leader is false
+2022/09/22 12:31:13 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:13 [server 0] Leader is true
+2022/09/22 12:31:13 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:13 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:13 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:13 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:13 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:13 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:13 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:13 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:13 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:13 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:13 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:13 [server 4] Leader is false
+2022/09/22 12:31:13 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:13 [server 3] Leader is false
+2022/09/22 12:31:13 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:13 [server 2] Leader is false
+2022/09/22 12:31:13 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:13 [server 1] Leader is false
+2022/09/22 12:31:13 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:13 [server 0] Leader is true
+2022/09/22 12:31:13 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:13 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:13 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:13 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:13 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:13 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:13 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:13 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:13 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:13 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:14 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:14 [server 4] Leader is false
+2022/09/22 12:31:14 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:14 [server 3] Leader is false
+2022/09/22 12:31:14 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:14 [server 2] Leader is false
+2022/09/22 12:31:14 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:14 [server 1] Leader is false
+2022/09/22 12:31:14 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:14 [server 0] Leader is true
+2022/09/22 12:31:14 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:14 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:14 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:14 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:14 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:14 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:14 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:14 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:14 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:14 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:14 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:14 [server 4] Leader is false
+2022/09/22 12:31:14 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:14 [server 3] Leader is false
+2022/09/22 12:31:14 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:14 [server 2] Leader is false
+2022/09/22 12:31:14 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:14 [server 1] Leader is false
+2022/09/22 12:31:14 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:14 [server 0] Leader is true
+2022/09/22 12:31:14 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:14 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:14 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:14 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:14 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:14 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:14 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:14 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:14 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:14 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:15 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:15 [server 4] Leader is false
+2022/09/22 12:31:15 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:15 [server 3] Leader is false
+2022/09/22 12:31:15 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:15 [server 2] Leader is false
+2022/09/22 12:31:15 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:15 [server 1] Leader is false
+2022/09/22 12:31:15 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:15 [server 0] Leader is true
+2022/09/22 12:31:15 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:15 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:15 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:15 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:15 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:15 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:15 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:15 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:15 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:15 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:15 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:15 [server 4] Leader is false
+2022/09/22 12:31:15 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:15 [server 3] Leader is false
+2022/09/22 12:31:15 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:15 [server 2] Leader is false
+2022/09/22 12:31:15 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:15 [server 1] Leader is false
+2022/09/22 12:31:15 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:15 [server 0] Leader is true
+2022/09/22 12:31:15 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:15 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:15 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:15 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:15 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:15 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:15 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:15 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:15 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:15 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:16 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:16 [server 4] Leader is false
+2022/09/22 12:31:16 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:16 [server 3] Leader is false
+2022/09/22 12:31:16 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:16 [server 2] Leader is false
+2022/09/22 12:31:16 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:16 [server 1] Leader is false
+2022/09/22 12:31:16 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:16 [server 0] Leader is true
+2022/09/22 12:31:16 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:16 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:16 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:16 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:16 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:16 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:16 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:16 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:16 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:16 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:16 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:16 [server 4] Leader is false
+2022/09/22 12:31:16 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:16 [server 3] Leader is false
+2022/09/22 12:31:16 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:16 [server 2] Leader is false
+2022/09/22 12:31:16 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:16 [server 1] Leader is false
+2022/09/22 12:31:16 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:16 [server 0] Leader is true
+2022/09/22 12:31:16 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:16 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:16 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:16 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:16 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:16 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:16 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:16 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:16 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:16 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:17 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:17 [server 4] Leader is false
+2022/09/22 12:31:17 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:17 [server 3] Leader is false
+2022/09/22 12:31:17 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:17 [server 2] Leader is false
+2022/09/22 12:31:17 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:17 [server 1] Leader is false
+2022/09/22 12:31:17 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:17 [server 0] Leader is true
+2022/09/22 12:31:17 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:17 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:17 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:17 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:17 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:17 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:17 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:17 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:17 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:17 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:17 resend to [KVServer 2], because ErrTimeOut
+2022/09/22 12:31:17 [server 4] Leader is false
+2022/09/22 12:31:17 resend to [KVServer 3], because ErrWrongLeader
+2022/09/22 12:31:17 [server 3] Leader is false
+2022/09/22 12:31:17 resend to [KVServer 4], because ErrWrongLeader
+2022/09/22 12:31:17 [server 2] Leader is false
+2022/09/22 12:31:17 resend to [KVServer 0], because ErrWrongLeader
+2022/09/22 12:31:17 [server 1] Leader is false
+2022/09/22 12:31:17 resend to [KVServer 1], because ErrWrongLeader
+2022/09/22 12:31:17 [KVServer 0] receive a duplicated command
+2022/09/22 12:31:17 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:17 [server 0] Leader is true
+2022/09/22 12:31:17 [KVServer 4] receive a duplicated command
+2022/09/22 12:31:17 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:17 [KVServer 1] receive a duplicated command
+2022/09/22 12:31:17 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:17 [KVServer 3] receive a duplicated command
+2022/09/22 12:31:17 apply success! state machine is &{map[0:]}
+2022/09/22 12:31:17 [KVServer 2] receive a duplicated command
+2022/09/22 12:31:17 apply success! state machine is &{map[0:]}

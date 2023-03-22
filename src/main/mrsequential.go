@@ -27,7 +27,8 @@ func main() {
 		fmt.Fprintf(os.Stderr, "Usage: mrsequential xxx.so inputfiles...\n")
 		os.Exit(1)
 	}
-
+	
+	// 载入wc.go的map和reduce函数
 	mapf, reducef := loadPlugin(os.Args[1])
 
 	//
@@ -36,6 +37,8 @@ func main() {
 	// accumulate the intermediate Map output.
 	//
 	intermediate := []mr.KeyValue{}
+	
+	// os.Args[2:]是所有的pg*.txt
 	for _, filename := range os.Args[2:] {
 		file, err := os.Open(filename)
 		if err != nil {
@@ -47,6 +50,7 @@ func main() {
 		}
 		file.Close()
 		kva := mapf(filename, string(content))
+		// slice... 是添加一整个数组，在尾部追加
 		intermediate = append(intermediate, kva...)
 	}
 
@@ -57,7 +61,7 @@ func main() {
 	//
 
 	sort.Sort(ByKey(intermediate))
-
+	// intermediate就是所有的{key:1}的集和
 	oname := "mr-out-0"
 	ofile, _ := os.Create(oname)
 
@@ -89,6 +93,7 @@ func main() {
 //
 // load the application Map and Reduce functions
 // from a plugin file, e.g. ../mrapps/wc.so
+// 这里是通过plugin将wc.go转成so，然后将函数导入进来，赋值给mapf,reducef
 //
 func loadPlugin(filename string) (func(string, string) []mr.KeyValue, func(string, []string) string) {
 	p, err := plugin.Open(filename)

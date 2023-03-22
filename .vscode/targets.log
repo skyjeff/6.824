@@ -1,0 +1,384 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+ 
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Wed Jun 29 22:28:06 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AGENT_FOLDER = /home/chenhao/.vscode-server
+# environment
+XDG_SESSION_TYPE = tty
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/chenhao/6.824
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{}}
+# environment
+_ = /home/chenhao/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/chenhao
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+SSH_CONNECTION = fe80::21f6:25c8:2ab1:b0d4%ens33 52177 fe80::968e:4008:1194:24e8%ens33 22
+# environment
+PATH = /home/chenhao/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GOPATH = /home/chenhao/go
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-79ce52ea-0c66-4a0a-b76c-38b5bed0a38a.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/chenhao/6.824
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/chenhao
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = chenhao
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+XDG_SESSION_ID = 3
+# environment
+USER = chenhao
+# makefile
+.DEFAULT_GOAL := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_GB:en
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = fe80::21f6:25c8:2ab1:b0d4%ens33 52177 22
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/chenhao/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+MOTD_SHOWN = pam
+# makefile (from 'Makefile', line 6)
+LABS = " lab1 lab2a lab2b lab2c lab3a lab3b lab4a lab4b "
+# variable set hash-table stats:
+# Load=74/1024=7%, Rehash=0, Collisions=9/101=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2053, inode 426022): 8 files, no impossibilities.
+
+# 8 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%: check-%
+#  recipe to execute (from 'Makefile', line 9):
+	@echo "Preparing $@-handin.tar.gz"
+	@if echo $(LABS) | grep -q " $@ " ; then \
+		echo "Tarring up your submission..." ; \
+		tar cvzf $@-handin.tar.gz \
+			"--exclude=src/main/pg-*.txt" \
+			"--exclude=src/main/diskvd" \
+			"--exclude=src/mapreduce/824-mrinput-*.txt" \
+			"--exclude=src/main/mr-*" \
+			"--exclude=mrtmp.*" \
+			"--exclude=src/main/diff.out" \
+			"--exclude=src/main/mrmaster" \
+			"--exclude=src/main/mrsequential" \
+			"--exclude=src/main/mrworker" \
+			"--exclude=*.so" \
+			Makefile src; \
+		if ! test -e api.key ; then \
+			echo "Missing $(PWD)/api.key. Please create the file with your key in it or submit the $@-handin.tar.gz via the web interface."; \
+		else \
+			echo "Are you sure you want to submit $@? Enter 'yes' to continue:"; \
+			read line; \
+			if test "$$line" != "yes" ; then echo "Giving up submission"; exit; fi; \
+			if test `stat -c "%s" "$@-handin.tar.gz" 2>/dev/null || stat -f "%z" "$@-handin.tar.gz"` -ge 20971520 ; then echo "File exceeds 20MB."; exit; fi; \
+			mv api.key api.key.fix ; \
+			cat api.key.fix | tr -d '\n' > api.key ; \
+			rm api.key.fix ; \
+			curl -F file=@$@-handin.tar.gz -F "key=<api.key" \
+			https://6824.scripts.mit.edu/2020/handin.py/upload > /dev/null || { \
+				echo ; \
+				echo "Submit seems to have failed."; \
+				echo "Please upload the tarball manually on the submission website."; } \
+		fi; \
+	else \
+		echo "Bad target $@. Usage: make [$(LABS)]"; \
+	fi
+
+check-%:
+#  recipe to execute (from 'Makefile', line 46):
+	@echo "Checking that your submission builds correctly..."
+	@./.check-build git://g.csail.mit.edu/6.824-golabs-2020 $(patsubst check-%,%,$@)
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+check-Makefile:
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Makefile'
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 46):
+	@echo "Checking that your submission builds correctly..."
+	@./.check-build git://g.csail.mit.edu/6.824-golabs-2020 $(patsubst check-%,%,$@)
+
+all: check-all
+#  Command line target.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'all'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from 'Makefile', line 9):
+	@echo "Preparing $@-handin.tar.gz"
+	@if echo $(LABS) | grep -q " $@ " ; then \
+		echo "Tarring up your submission..." ; \
+		tar cvzf $@-handin.tar.gz \
+			"--exclude=src/main/pg-*.txt" \
+			"--exclude=src/main/diskvd" \
+			"--exclude=src/mapreduce/824-mrinput-*.txt" \
+			"--exclude=src/main/mr-*" \
+			"--exclude=mrtmp.*" \
+			"--exclude=src/main/diff.out" \
+			"--exclude=src/main/mrmaster" \
+			"--exclude=src/main/mrsequential" \
+			"--exclude=src/main/mrworker" \
+			"--exclude=*.so" \
+			Makefile src; \
+		if ! test -e api.key ; then \
+			echo "Missing $(PWD)/api.key. Please create the file with your key in it or submit the $@-handin.tar.gz via the web interface."; \
+		else \
+			echo "Are you sure you want to submit $@? Enter 'yes' to continue:"; \
+			read line; \
+			if test "$$line" != "yes" ; then echo "Giving up submission"; exit; fi; \
+			if test `stat -c "%s" "$@-handin.tar.gz" 2>/dev/null || stat -f "%z" "$@-handin.tar.gz"` -ge 20971520 ; then echo "File exceeds 20MB."; exit; fi; \
+			mv api.key api.key.fix ; \
+			cat api.key.fix | tr -d '\n' > api.key ; \
+			rm api.key.fix ; \
+			curl -F file=@$@-handin.tar.gz -F "key=<api.key" \
+			https://6824.scripts.mit.edu/2020/handin.py/upload > /dev/null || { \
+				echo ; \
+				echo "Submit seems to have failed."; \
+				echo "Please upload the tarball manually on the submission website."; } \
+		fi; \
+	else \
+		echo "Bad target $@. Usage: make [$(LABS)]"; \
+	fi
+
+.PHONY: check-%
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check-%:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+ 
+Makefile: check-Makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Makefile'
+#  Last modified 2022-06-27 16:11:52.345200131
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 9):
+	@echo "Preparing $@-handin.tar.gz"
+	@if echo $(LABS) | grep -q " $@ " ; then \
+		echo "Tarring up your submission..." ; \
+		tar cvzf $@-handin.tar.gz \
+			"--exclude=src/main/pg-*.txt" \
+			"--exclude=src/main/diskvd" \
+			"--exclude=src/mapreduce/824-mrinput-*.txt" \
+			"--exclude=src/main/mr-*" \
+			"--exclude=mrtmp.*" \
+			"--exclude=src/main/diff.out" \
+			"--exclude=src/main/mrmaster" \
+			"--exclude=src/main/mrsequential" \
+			"--exclude=src/main/mrworker" \
+			"--exclude=*.so" \
+			Makefile src; \
+		if ! test -e api.key ; then \
+			echo "Missing $(PWD)/api.key. Please create the file with your key in it or submit the $@-handin.tar.gz via the web interface."; \
+		else \
+			echo "Are you sure you want to submit $@? Enter 'yes' to continue:"; \
+			read line; \
+			if test "$$line" != "yes" ; then echo "Giving up submission"; exit; fi; \
+			if test `stat -c "%s" "$@-handin.tar.gz" 2>/dev/null || stat -f "%z" "$@-handin.tar.gz"` -ge 20971520 ; then echo "File exceeds 20MB."; exit; fi; \
+			mv api.key api.key.fix ; \
+			cat api.key.fix | tr -d '\n' > api.key ; \
+			rm api.key.fix ; \
+			curl -F file=@$@-handin.tar.gz -F "key=<api.key" \
+			https://6824.scripts.mit.edu/2020/handin.py/upload > /dev/null || { \
+				echo ; \
+				echo "Submit seems to have failed."; \
+				echo "Please upload the tarball manually on the submission website."; } \
+		fi; \
+	else \
+		echo "Bad target $@. Usage: make [$(LABS)]"; \
+	fi
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check-all:
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'all'
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := check-all
+# automatic
+# % := 
+# automatic
+# * := all
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from 'Makefile', line 46):
+	@echo "Checking that your submission builds correctly..."
+	@./.check-build git://g.csail.mit.edu/6.824-golabs-2020 $(patsubst check-%,%,$@)
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/33=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 18 / storage = 152 B / avg = 8 B
+# current buf: size = 8162 B / used = 152 B / count = 18 / avg = 8 B
+
+# strcache performance: lookups = 33 / hit rate = 45%
+# hash-table stats:
+# Load=18/8192=0%, Rehash=0, Collisions=1/33=3%
+# Finished Make data base on Wed Jun 29 22:28:06 2022
+
+ 
